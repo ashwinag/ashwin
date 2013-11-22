@@ -1,0 +1,38 @@
+MSE Assignment
+Ashwin Agarwal
+1pi10is131
+
+question 1
+
+1 21h	const/high16 vAA, #+BBBB0000	A: destination register (8 bits)
+B: signed int (16 bits)	Move the given literal value (right-zero-extended to 32 bits) into the specified register.
+2 21s	const/16 vAA, #+BBBB	A: destination register (8 bits)
+B: signed int (16 bits)	Move the given literal value (sign-extended to 32 bits) into the specified register.
+1d 11x	monitor-enter vAA	A: reference-bearing register (8 bits)	Acquire the monitor for the indicated object.
+1c 21c	const-class vAA, type@BBBB	A: destination register (8 bits)
+B: type index	Move a reference to the class specified by the given index into the specified register. In the case where the indicated type is primitive, this will store a reference to the primitive type's degenerate class.
+19 21h	const-wide/high16 vAA, #+BBBB000000000000	A: destination register (8 bits)
+B: signed int (16 bits)	Move the given literal value (right-zero-extended to 64 bits) into the specified register-pair.
+
+question 2
+
+Cloud computing, one of the new buzz words of 2008, allows you to store your files and folders in a “cloud” area on the Internet, allowing you access to all of your files and folders wherever you are in the world – but you do need a physical device with Internet access to access it.
+Mobile computing is taking a physical device with you. This could be a laptop or a mobile phone or some device which enables you to telework – working wherever you go because of the small size of the device you’re using.
+Either way, there will be some drawbacks. I’m not going to focus on the positives too much, simply because being able to do work shouldn’t have to be a positive thing, rather something we should just be able to do without any concern.
+Focusing for the time being on mobile computing – let’s face it, even for non-students it generally means lugging a laptop around with you. You have to open it up, turn it on, plug it in to the mains, get the wireless settings sorted – by the time you’ve done all that faffing around you have to get something else done. For the lucky ones, you can use a Blackberry or a handheld device to work with. Even then the buttons are tiny, and months of living off nothing but sausages, crisps (chips), chocolate and beer, you’ve gained so much wait you mash the keypad with your finger because they’ve become huge and fat.
+Cloud computing isn’t that much better. Sure, you can have all your files synchronised between devices so wherever you go, you’ll always have access to your files, but the technology doesn’t fully exist yet. It’s getting there, but it’s slow and temperamental, difficult to use and often the average user (even me, an advanced user) gets confused as to where the files are actually stored and/or where else they are stored. Even though you don’t need to carry round a laptop with you, you still need some physical device to access your service which almost defeats the point anyway. Having everything in your very own secure cloud so you can access anything anywhere is put back by the fact you have to find a computer to use anyway.
+In my opinion, get a search application installed and just use a flash drive. You can hold up to 2GB-4GB on even the cheaper ones, you do need a computer to use it but at least you can fit everything you need to physically store your files in your pocket.
+
+question 3
+
+Application in health care
+
+Context-aware mobile agents are a best suited host implementing any context-aware applications. Modern integrated voice and data communications equips the hospital staff with smart phones to communicate vocally with each other, but preferably to look up the next task to be executed and to capture the next report to be noted.
+However, all attempts to support staff with such approaches are hampered till failure of acceptance with the need to look up upon a new event for patient identities, order lists and work schedules. Hence a well suited solution has to get rid of such manual interaction with a tiny screen and therefore serves the user with
+automated identifying actual patient and local environment upon approach,
+automated recording the events with coming to and leaving off the actual patient,
+automated presentation of the orders or service due on the current location and with
+supported documenting the required information keying in a minimum of data into prepared form entries.
+Basically such contextually well formed approach requires scheduled workflows, as all necessary preparation must refer to given orders and set schedules. Working free hand or ex tempore does not provide such qualities.[citation needed]
+Additionally, none of the RFID, WLAN or RTLS locating solutions advertising for most precise locating serve the required quality, as determining a location in conventional attitude looking for absolute coordinates fails either technically or economically.
+However, the coincidence of personnel with patient is easily detected and delivers all options of reliable automating at reasonable effort. An escape is fairly available with the method of unilateration or fuzzy locating, where no absolute coordinates are required, but just the radial distance between personnel smart phone and patient wrist band.[16] Such distance estimating is entirely sufficient to detect the context of servicing the patient, as no service is ever applied to patients only at larger distance. Even in nuclear medicine or with radiology diagnosis, the haptic contact of staff with patient comes before staff retreats while the patient gets exposed to isotopes or X-rays.
